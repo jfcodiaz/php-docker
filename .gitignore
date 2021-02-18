@@ -1,1 +1,4 @@
 .env
+.phpcs-cache
+code/vendor/*
+.bash_history

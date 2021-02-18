@@ -17,7 +17,7 @@ services:
       - ./data/logs/:/var/logs/
       - ./data/ssh/known_hosts:/root/.ssh/known_hosts
       - ./:/root/repository
-      - ./code/www:/var/www
+      - ./code:/var/www
     container_name: ${PROJECT_NAME}_www
   mysql:
     image: mysql:5.7

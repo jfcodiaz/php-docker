@@ -120,5 +120,7 @@ RUN usermod -u 1000 www-data \
 
 RUN apt-get update && apt-get install -y ssh-client
 
+WORKDIR "/var/www"
+
 EXPOSE 80
 ENTRYPOINT ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
