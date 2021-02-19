@@ -1,6 +1,8 @@
 <?php
-include '../app/autoload.php';
+include '../app/bootstrap.php';
 
 $hello = new App\Hello();
-var_dump($hello->sayHelloWorld());
+
+printf('<h1 id="hello-word">%s</h1>', $hello->sayHelloWorld());
+
 phpinfo();

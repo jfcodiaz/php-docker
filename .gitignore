@@ -2,3 +2,6 @@
 .phpcs-cache
 code/vendor/*
 .bash_history
+code/.phpunit.result.cache
+phpcs.xml
+phpunit.xml
