@@ -2,6 +2,7 @@
 .phpcs-cache
 code/vendor/*
 .bash_history
+docker/data
 code/.phpunit.result.cache
 phpcs.xml
 phpunit.xml
